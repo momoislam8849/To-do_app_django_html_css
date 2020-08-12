@@ -1,1 +1,1 @@
-web: gunicorn todop.wsgi 
+web: gunicorn todop.wsgi --log-file -
